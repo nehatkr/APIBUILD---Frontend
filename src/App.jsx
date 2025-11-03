@@ -1,14 +1,21 @@
-
-import './index.css'
-import Login from "./components/Login"
+import "./index.css";
+import Login from "./components/Login";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Body from "./components/Body";
 
 function App() {
-
   return (
     <>
-<Login />
+    <BrowserRouter basename="/">
+    <Routes>
+      <Route path="/" element={<Body />}>
+      <Route path="/login" element={<Login />}/>
+      </Route>
+    </Routes>
+    </BrowserRouter>
+  
     </>
-  )
+  );
 }
 
-export default App
+export default App;
