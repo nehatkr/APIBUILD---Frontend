@@ -16,6 +16,11 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-lg">
+            <li>
+            <Link to="/pricing" className="hover:text-gray-200 transition">
+              Pricing
+            </Link>
+          </li>
           <li>
             <Link to="/dashboard" className="hover:text-gray-200 transition">
               Dashboard
