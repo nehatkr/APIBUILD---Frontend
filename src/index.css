@@ -1,7 +1,8 @@
 @import "tailwindcss";
-body {
-  height: 100%;
+html, body {
+  height: auto !important;
+  min-height: 100%;
+  overflow-y: auto !important;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevents double scrollbar */
 }

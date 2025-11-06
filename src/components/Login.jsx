@@ -36,7 +36,7 @@ const login = () => {
   //   };
 
   return (
-    <div className="bg-white flex justify-center  ">
+    <div className="bg-white flex justify-center mb-8 ">
       <div
         className="bg-white border shadow-md w-110 mt-12 p-2 rounded-lg  border-gray-100"
       >
