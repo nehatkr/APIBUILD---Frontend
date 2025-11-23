@@ -3,6 +3,7 @@ import Login from "./components/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Body from "./components/Body";
 import Pricing from "./components/Pricing";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/login" element={<Login />}/>
       <Route path="/pricing" element={<Pricing />}/>
       <Route path="/dashboard" element={<Pricing />}/>
+      <Route path="/contactus" element={<ContactUs />}/>
       </Route>
     </Routes>
     </BrowserRouter>
